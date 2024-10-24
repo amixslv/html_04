@@ -1,0 +1,90 @@
+* {
+    margin: 0 10;
+    padding: 0;
+}
+
+/* Noņem visis iebūvētos stilus */
+
+/* a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+} */
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.car {
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roof {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: blanchedalmond;
+    width: 60%;
+    height: 80px;
+    position: relative;
+    bottom: -30px;
+
+
+}
+
+.body {
+    background-color: blanchedalmond;
+    width: 80%;
+    height: 100px;
+    border-radius: 30%;
+
+}
+
+
+.wheels-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 150px;
+    width: 80%;
+    position: relative;
+    top: -50px;
+}
+
+
+.wheel {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+
+}
+
+.wheel-disk {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px;
+}
